@@ -1,13 +1,13 @@
-#!name=番茄小说广告屏蔽去短剧
-#!desc=番茄小说广告屏蔽（批量检查后已修正，低误杀），version = 0.1
+#!name=番茄小说广告屏蔽（去除短剧）
+#!desc=番茄小说广告屏蔽（去除短剧），version = 0.1
 
 [Rule]
-# 原始规则
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
+DOMAIN-KEYWORD,zijieapi,REJECT
 DOMAIN,activity-ag.awemeughun.com,REJECT
 DOMAIN,mcs.snssdk.com,REJECT
 DOMAIN,tnc3-alisc1.snssdk.com,REJECT
@@ -19,23 +19,16 @@ DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,REJECT
 DOMAIN,api.iegadp.qq.com,REJECT
 DOMAIN,sf3-ttcdn-tos.pstatp.com,REJECT
 DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
-DOMAIN,zijieapi,REJECT
 DOMAIN,*default.ixigua.com,REJECT
 DOMAIN,v6-novelapp.ixigua.com,REJECT
 DOMAIN,*novelapp.ixigua.com,REJECT
 DOMAIN-SUFFIX,byteorge.com,REJECT
 DOMAIN-SUFFIX,bytegoofy.com,REJECT
 DOMAIN-SUFFIX,bytedance.com,REJECT
-DOMAIN,lf*-webcast-cdn-tos-ncdn.bytegecko.com
-DOMAIN,bsync3-normal-hl.zijieapi.com,REJECT
-DOMAIN,p*.douyinpic.com,REJECT
-DOMAIN,ecombdimg.com,REJECT
-DOMAIN,mon*-misc-*.fqnovel.com,REJECT
-
 
 # 新增短剧广告规则（批量检查已修正）
 DOMAIN-SUFFIX,webcast-cdn-tos-ncdn.bytegecko.com,REJECT
-DOMAIN,bsync3-normal-hl.zijieapi.com,REJECT
+DOMAIN-SUFFIX,bsync3-normal-hl.zijieapi.com,REJECT
 DOMAIN-SUFFIX,douyinpic.com,REJECT
 DOMAIN,ecombdimg.com,REJECT
 URL-REGEX,^https?:\/\/mon.*-misc-.*\.fqnovel\.com,REJECT
