@@ -29,9 +29,13 @@ DOMAIN-SUFFIX,bytedance.com,REJECT
 # 新增短剧广告规则（批量检查已修正）
 DOMAIN-SUFFIX,webcast-cdn-tos-ncdn.bytegecko.com,REJECT
 DOMAIN-SUFFIX,bsync3-normal-hl.zijieapi.com,REJECT
-DOMAIN-SUFFIX,douyinpic.com,REJECT
+DOMAIN-SUFFIX,p*.douyinpic.com,REJECT
 DOMAIN,ecombdimg.com,REJECT
+DOMAIN-SUFFIX,misc-lq.fqnovel.com,REJECT
+DOMAIN-KEYWORD,misc-lq.fqnovel.com,REJECT
+DOMAIN-KEYWORD,mon*-misc-*.fqnovel.com,REJECT
 URL-REGEX,^https?:\/\/mon.*-misc-.*\.fqnovel\.com,REJECT
+URL-REGEX,^https?:\/\/mon*-misc-*\.fqnovel\.com,REJECT
 
 # IP拦截
 IP-CIDR,49.71.37.101/32,REJECT,no-resolve
@@ -60,4 +64,4 @@ URL-REGEX,^http:\/\/.+\.byteimg\.com\/web\.business\.image,REJECT
 ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ _ reject
 
 [MITM]
-hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,*.byteimg.com,*.douyinpic.com,*.bytegecko.com,*.zijieapi.com,*.ecombdimg.com,*.fqnovel.com
+hostname = %APPEND% *.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com
