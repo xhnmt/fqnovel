@@ -38,7 +38,7 @@ DOMAIN-KEYWORD,normal-aweme-hl.doubao.com,REJECT
 DOMAIN-KEYWORD,normal-hl.amemv.com,REJECT
 DOMAIN-KEYWORD,normal-lq.fqnovel.com,REJECT
 DOMAIN-KEYWORD,normal-m-hj.amemv.com,REJECT
-DOMAIN-KEYWORD,normal-sinfonlinea.fqnovel.com,REJECT
+DOMAIN,p3-reading-sign.fqnovelpic.com,REJECT
 DOMAIN,aweme.snssdk.com,REJECT
 DOMAIN,bytelink100-ws-hl.amemv.com,REJECT
 DOMAIN,content-open.douyin.com,REJECT
