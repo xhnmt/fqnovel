@@ -1,3 +1,4 @@
+#!url=https://raw.githubusercontent.com/xhnmt/fqnovel/master/AD_fqnovel.module
 #!name=番茄小说广告屏蔽去短剧
 #!desc=番茄小说广告屏蔽去短剧（未完成版），version = 0.1
 
@@ -25,7 +26,7 @@ DOMAIN,*novelapp.ixigua.com,REJECT
 DOMAIN-SUFFIX,byteorge.com,REJECT
 DOMAIN-SUFFIX,bytegoofy.com,REJECT
 DOMAIN-SUFFIX,bytedance.com,REJECT
-DOMAIN-SUFFIX,ecombdimg.com,REJECT
+#DOMAIN-SUFFIX,ecombdimg.com,REJECT
 DOMAIN-SUFFIX,bytegecko.com,REJECT
 
 
@@ -33,32 +34,22 @@ DOMAIN-SUFFIX,bytegecko.com,REJECT
 #测试
 
 
-DOMAIN-KEYWORD,open-lq.douyin.com,REJECT
-DOMAIN-KEYWORD,normal-aweme-hl.doubao.com,REJECT
-DOMAIN-KEYWORD,normal-hl.amemv.com,REJECT
 DOMAIN-KEYWORD,normal-lq.fqnovel.com,REJECT
-DOMAIN-KEYWORD,normal-m-hj.amemv.com,REJECT
 DOMAIN,aweme.snssdk.com,REJECT
-DOMAIN,bytelink100-ws-hl.amemv.com,REJECT
-DOMAIN,content-open.douyin.com,REJECT
 DOMAIN,ec5-core-hl.ecombdapi.com,REJECT
 DOMAIN,ecom5-normal-hl.ecombdapi.com,REJECT
 DOMAIN,effect.snssdk.com,REJECT
-DOMAIN,frontier-aweme-hl-ipainner.amemv.com,REJECT
 DOMAIN,frontier100-toutiao-hl.fqnovel.com,REJECT
 DOMAIN,is-lq.snssdk.com,REJECT
 DOMAIN,lf3-reading.fqnovelpic.com,REJECT
 DOMAIN,lf3-static.bytednsdoc.com,REJECT
 DOMAIN,log-hl.snssdk.com,REJECT
-DOMAIN,mmbiz.qpic.cn,REJECT
-DOMAIN,mon.toutiaocloud.com,REJECT
 DOMAIN,mon0-misc-hl.amemv.com,REJECT
 DOMAIN,p3-novel.byteimg.com,REJECT
 DOMAIN,p6-novel.byteimg.com,REJECT
 DOMAIN,render.ecombdpage.com,REJECT
 DOMAIN,sdk.open.extension.getui.com,REJECT
 DOMAIN,tnc3-bjlgy.snssdk.com,REJECT
-DOMAIN,tp-pay.snssdk.com,REJECT
 DOMAIN,v9-novelapp.fqnovelvod.com,REJECT
 DOMAIN,vas-lf-x.snssdk.com,REJECT
 DOMAIN,vas.snssdk.com,REJECT
